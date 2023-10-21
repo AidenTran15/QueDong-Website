@@ -31,13 +31,13 @@ body {
     font-size: 46px;
     font-weight: bold;
     margin-right: 10px;
-
     font-family: 'Newsreader', serif;
 }
 
 .navbar-center {
     position: relative;
     margin-left: 600px;
+    display: flex;
 }
 
 .search-input {
@@ -48,44 +48,10 @@ body {
 
 }
 
-.search-button {
-    position: absolute;
-    right: 0;
-    top: 0;
-    border: none;
-    background: none;
-    cursor: pointer;
-    font-size: 16px;
-    padding: 10px;
-
-}
 
 .navbar-right {
     display: flex;
     gap: 10px;
-}
-
-.social-icon {
-    text-decoration: none;
-    font-size: 24px;
-}
-
-.social-icon:nth-child(1) {
-    color: #1877f2;
-    /* Facebook blue */
-
-}
-
-.social-icon:nth-child(2) {
-    color: #1da1f2;
-    /* Twitter blue */
-
-}
-
-.social-icon:nth-child(3) {
-    color: #f44336;
-    /* YouTube red */
-    margin-right: 120px;
 }
 
 /* ... [previous CSS styles] ... */
@@ -112,9 +78,9 @@ body {
     /* Added padding to the sides to make the items look wider */
 }
 
-/* .menu-item:hover {
+.menu-item:hover {
     color: blue;
-} */
+}
 
 .menu-item.active {
     color: #007BFF;
@@ -142,4 +108,27 @@ body {
 .fa-instagram {
     background: #3B5998;
     color: white;
+}
+
+.fa-youtube {
+    background: #3B5998;
+    color: white;
+    margin-right: 120px;
+    text-align: center;
+}
+
+
+.icon-wrapper {
+    background-color: #3B5998;
+    width: 39px;
+    height: 39px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+}
+
+.fa-solid.fa-magnifying-glass {
+    color: white;
+    /* Any other styles for the icon */
 }
