@@ -1,0 +1,145 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+}
+
+.navbar-left {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-logo {
+    width: 92px;
+    height: 92px;
+    padding-left: 300px;
+}
+
+.navbar-title {
+    font-size: 46px;
+    font-weight: bold;
+    margin-right: 10px;
+
+    font-family: 'Newsreader', serif;
+}
+
+.navbar-center {
+    position: relative;
+    margin-left: 600px;
+}
+
+.search-input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+
+}
+
+.search-button {
+    position: absolute;
+    right: 0;
+    top: 0;
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 10px;
+
+}
+
+.navbar-right {
+    display: flex;
+    gap: 10px;
+}
+
+.social-icon {
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.social-icon:nth-child(1) {
+    color: #1877f2;
+    /* Facebook blue */
+
+}
+
+.social-icon:nth-child(2) {
+    color: #1da1f2;
+    /* Twitter blue */
+
+}
+
+.social-icon:nth-child(3) {
+    color: #f44336;
+    /* YouTube red */
+    margin-right: 120px;
+}
+
+/* ... [previous CSS styles] ... */
+
+.navbar-menu {
+    display: flex;
+    justify-content: center;
+    /* Align the items to the center */
+    background-color: white;
+    padding: 5px 50px;
+    gap: 5px;
+    /* Reduced gap to make menu items closer */
+}
+
+/* Menu Item style */
+.menu-item {
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    font-weight: 600;
+    /* Increased font weight for better prominence */
+    transition: color 0.3s;
+    padding: 0 10px;
+    /* Added padding to the sides to make the items look wider */
+}
+
+/* .menu-item:hover {
+    color: blue;
+} */
+
+.menu-item.active {
+    color: #007BFF;
+    /* Màu xanh, bạn có thể thay đổi theo ý muốn */
+    border-bottom: 2px solid #007BFF;
+}
+
+
+
+.fa {
+    padding: 10px;
+    font-size: 10px;
+    width: 15px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+/* Facebook */
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-instagram {
+    background: #3B5998;
+    color: white;
+}
