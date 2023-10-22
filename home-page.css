@@ -2,8 +2,11 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    padding-bottom: 120px;
+    /* approximate height of the footer, to avoid content overlap */
 }
 
+/*                     /// Header NavBar ///             */
 .navbar {
     background-color: white;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -54,7 +57,7 @@ body {
     gap: 10px;
 }
 
-/* ... [previous CSS styles] ... */
+/*                     /// Nav Menu ///             */
 
 .navbar-menu {
     display: flex;
@@ -79,7 +82,7 @@ body {
 }
 
 .menu-item:hover {
-    color: blue;
+    color: #007BFF;
 }
 
 .menu-item.active {
@@ -89,7 +92,7 @@ body {
 }
 
 
-
+/*                     /// NavBar Social Icon ///             */
 .fa {
     padding: 10px;
     font-size: 10px;
@@ -131,4 +134,72 @@ body {
 .fa-solid.fa-magnifying-glass {
     color: white;
     /* Any other styles for the icon */
+}
+
+
+
+
+
+/*                     /// Footer ///             */
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    background-color: #3B5998;
+    color: #ffffff;
+    position: fixed;
+    /* Add this line */
+    bottom: 0;
+    /* Add this line */
+    left: 0;
+    /* Add this line */
+    right: 0;
+    /* Add this line */
+    z-index: 1000;
+    /* Optional: to ensure the footer stays above other content */
+}
+
+.left-section h1,
+.right-section h1 {
+    margin: 0;
+    padding-bottom: 15px;
+    margin-right: 500px;
+    font-size: 30px;
+}
+
+.left-section address {
+    font-style: normal;
+    line-height: 1.8;
+    margin-left: 120px;
+    padding-bottom: 30px;
+}
+
+.left-section h1 {
+    margin-left: 120px;
+    font-size: 42px;
+    font-weight: bold;
+    margin-top: 10px;
+    font-family: 'Newsreader', serif;
+}
+
+.right-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.right-section li {
+    padding: 5px 0;
+}
+
+.social-icons {
+    margin-top: 20px;
+}
+
+.social-icons a {
+    margin-right: 10px;
+}
+
+.social-icons img {
+    width: 24px;
+    height: 24px;
 }
