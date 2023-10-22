@@ -7,69 +7,92 @@
     <title>Quế Đông</title>
     <link rel="icon" type="image/x-icon" href="/assest/favicon.ico">
     <link rel="stylesheet" href="home-page.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Newsreader:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script src="https://kit.fontawesome.com/299980d5f2.js" crossorigin="anonymous"></script>
-
 </head>
 
 <body>
-    <!--               /// Header ///               -->
-    <header class="navbar">
-        <div class="navbar-top">
-            <div class="navbar-left">
-                <img src="assest/logo.png" alt="Logo" class="navbar-logo">
-                <span class="navbar-title">Quế Đông</span>
-            </div>
-            <div class="navbar-center">
-                <div class="input-wrapper">
-                    <input type="text" placeholder="Tìm sản Phẩm..." class="search-input">
-                </div>
-                <div class="icon-wrapper">
-                    <i class="fa-solid fa-magnifying-glass"></i>
-                </div>
-            </div>
-            <div class="navbar-right">
-                <a href="https://www.facebook.com/quedongvlxd" class="fa fa-facebook"></a>
-                <a href="#" class="fa fa-instagram"></a>
-                <a href="#" class="fa fa-youtube"></a>
-            </div>
-        </div>
-        <div class="navbar-menu">
-            <a href="#" class="menu-item active">Trang Chủ</a>
-            <a href="#" class="menu-item">Giới Thiệu</a>
-            <a href="product-page.html" class="menu-item">Sản Phẩm</a>
-            <a href="#" class="menu-item">Tin Tức</a>
-            <a href="#" class="menu-item">Liên Hệ</a>
-            <a href="#" class="menu-item">San Lắp Công Trình</a>
-        </div>
-    </header>
 
-</body>
-<!--               /// Footer ///               -->
-<footer class="footer">
-    <div class="left-section">
-        <h1>QUẾ ĐÔNG</h1>
-        <address>
-            783 Hà Huy Giáp, Phường Thanh Xuân, Quận 12, <br>
-            Thành Hồ Chí Minh <br>
-            Số Điện Thoại: 093 838 4325 <br>
-            Email: vlxdquedong@gmail.com <br>
-            Facebook: Vật Liệu Quê Đông
-        </address>
+    <!-- Header -->
+    <div class="d-flex flex-column" style="min-height: 100vh;">
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">
+                        <img src="assest/logo.png" alt="Logo" width="80" height="80"
+                            class="d-inline-block align-middle">
+                        <span class="navbar-brand-text">Quế Đông</span>
+                    </a>
+
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav collapse navbar-collapse justify-content-center" id="navbarNav">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Trang Chủ</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Giới Thiệu</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="product-page.html">Sản Phẩm</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Tin Tức</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Liên Hệ</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">San Lắp Công Trình</a>
+                            </li>
+                        </ul>
+                        <form class="d-flex ml-auto">
+                            <input class="form-control me-2" type="search" placeholder="Tìm sản Phẩm..."
+                                aria-label="Search">
+                            <div class="icon-wrapper">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+        </header>
     </div>
-    <div class="right-section">
-        <h1>HỖ TRỢ KHÁCH HÀNG</h1>
-        <ul>
-            <li>Giới Thiệu</li>
-            <li>Liên Hệ Chúng Tôi</li>
-        </ul>
-        <div class="navbar-right">
-            <a href="https://www.facebook.com/quedongvlxd" class="fa fa-facebook"></a>
-            <a href="#" class="fa fa-instagram"></a>
-            <a href="#" class="fa fa-youtube"></a>
+
+    <!-- Footer -->
+    <footer class="footer bg-dark text-white footer-adjust">
+        <div class="container py-4">
+            <div class="row">
+                <div class="col-md-6">
+                    <h3>QUẾ ĐÔNG</h3>
+                    <address>
+                        783 Hà Huy Giáp, Phường Thanh Xuân, Quận 12, <br>
+                        Thành Hồ Chí Minh <br>
+                        Số Điện Thoại: 093 838 4325 <br>
+                        Email: vlxdquedong@gmail.com <br>
+                        Facebook: Vật Liệu Quê Đông
+                    </address>
+                </div>
+                <div class="col-md-6">
+                    <h3>HỖ TRỢ KHÁCH HÀNG</h3>
+                    <ul class="list-unstyled">
+                        <li>Giới Thiệu</li>
+                        <li>Liên Hệ Chúng Tôi</li>
+                    </ul>
+                </div>
+            </div>
         </div>
-    </div>
-</footer>
+    </footer>
+</body>
 
 </html>
