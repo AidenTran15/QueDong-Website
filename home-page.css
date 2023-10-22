@@ -2,21 +2,22 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    padding-bottom: 120px;
-    /* approximate height of the footer, to avoid content overlap */
+    padding-bottom: 8rem;
+    /* Adjusted from px to rem */
 }
 
-/*                     /// Header NavBar ///             */
+/* Header NavBar */
 .navbar {
     background-color: white;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0.125rem 0.3125rem rgba(0, 0, 0, 0.1);
 }
 
 .navbar-top {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 50px;
+    padding: 0.625rem 3rem;
+    /* Adjusted from px to rem */
 }
 
 .navbar-left {
@@ -25,160 +26,165 @@ body {
 }
 
 .navbar-logo {
-    width: 92px;
-    height: 92px;
-    padding-left: 300px;
+    width: 5.75rem;
+    /* Adjusted from px to rem */
+    height: 5.75rem;
+    /* Adjusted from px to rem */
+    padding-left: 18.75rem;
+    /* Adjusted from px to rem */
 }
 
 .navbar-title {
-    font-size: 46px;
+    font-size: 2.78rem;
+    /* Adjusted from px to rem */
     font-weight: bold;
-    margin-right: 10px;
+    margin-right: 0.625rem;
+    /* Adjusted from px to rem */
     font-family: 'Newsreader', serif;
 }
 
 .navbar-center {
     position: relative;
-    margin-left: 600px;
+    margin-left: 37.5rem;
+    /* Adjusted from px to rem */
     display: flex;
 }
 
 .search-input {
-    padding: 10px;
+    padding: 0.625rem;
+    /* Adjusted from px to rem */
     border: 1px solid #ccc;
-    border-radius: 5px;
-    font-size: 16px;
-
+    /* Border is often fine to keep in px */
+    border-radius: 0.3125rem;
+    /* Adjusted from px to rem */
+    font-size: 1rem;
+    /* Adjusted from px to rem */
 }
-
 
 .navbar-right {
     display: flex;
-    gap: 10px;
+    gap: 0.625rem;
+    /* Adjusted from px to rem */
 }
 
-/*                     /// Nav Menu ///             */
-
+/* Nav Menu */
 .navbar-menu {
     display: flex;
     justify-content: center;
-    /* Align the items to the center */
     background-color: white;
-    padding: 5px 50px;
-    gap: 5px;
-    /* Reduced gap to make menu items closer */
+    padding: 0.3125rem 3rem;
+    /* Adjusted from px to rem */
+    gap: 0.3125rem;
+    /* Adjusted from px to rem */
 }
 
-/* Menu Item style */
 .menu-item {
     text-decoration: none;
-    font-size: 20px;
+    font-size: 1.25rem;
+    /* Adjusted from px to rem */
     color: black;
     font-weight: 600;
-    /* Increased font weight for better prominence */
     transition: color 0.3s;
-    padding: 0 10px;
-    /* Added padding to the sides to make the items look wider */
+    padding: 0 0.625rem;
+    /* Adjusted from px to rem */
 }
 
-.menu-item:hover {
+.menu-item:hover,
+.menu-item.active {
     color: #007BFF;
 }
 
 .menu-item.active {
-    color: #007BFF;
-    /* Màu xanh, bạn có thể thay đổi theo ý muốn */
-    border-bottom: 2px solid #007BFF;
+    border-bottom: 0.125rem solid #007BFF;
+    /* Adjusted from px to rem */
 }
 
-
-/*                     /// NavBar Social Icon ///             */
+/* NavBar Social Icon */
 .fa {
-    padding: 10px;
-    font-size: 10px;
-    width: 15px;
+    padding: 0.625rem;
+    /* Adjusted from px to rem */
+    font-size: 0.625rem;
+    /* Adjusted from px to rem */
+    width: 0.9375rem;
+    /* Adjusted from px to rem */
     text-align: center;
     text-decoration: none;
     border-radius: 50%;
 }
 
-/* Facebook */
-.fa-facebook {
-    background: #3B5998;
-    color: white;
-}
-
-.fa-instagram {
+.fa-facebook,
+.fa-instagram,
+.fa-youtube {
     background: #3B5998;
     color: white;
 }
 
 .fa-youtube {
-    background: #3B5998;
-    color: white;
-    margin-right: 120px;
+    margin-right: 7.5rem;
+    /* Adjusted from px to rem */
     text-align: center;
 }
 
-
 .icon-wrapper {
     background-color: #3B5998;
-    width: 39px;
-    height: 39px;
+    width: 2.4375rem;
+    /* Adjusted from px to rem */
+    height: 2.4375rem;
+    /* Adjusted from px to rem */
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 4px;
+    border-radius: 0.25rem;
+    /* Adjusted from px to rem */
 }
 
 .fa-solid.fa-magnifying-glass {
     color: white;
-    /* Any other styles for the icon */
 }
 
-
-
-
-
-/*                     /// Footer ///             */
+/* Footer */
 .footer {
     display: flex;
     justify-content: space-between;
-    padding: 20px 50px;
+    padding: 1.25rem 3rem;
+    /* Adjusted from px to rem */
     background-color: #3B5998;
     color: #ffffff;
     position: fixed;
-    /* Add this line */
     bottom: 0;
-    /* Add this line */
     left: 0;
-    /* Add this line */
     right: 0;
-    /* Add this line */
     z-index: 1000;
-    /* Optional: to ensure the footer stays above other content */
 }
 
 .left-section h1,
 .right-section h1 {
     margin: 0;
-    padding-bottom: 15px;
-    margin-right: 500px;
-    font-size: 20px;
+    padding-bottom: 0.9375rem;
+    /* Adjusted from px to rem */
+    margin-right: 31.25rem;
+    /* Adjusted from px to rem */
+    font-size: 1.25rem;
+    /* Adjusted from px to rem */
 }
 
 .left-section address {
     font-style: normal;
     line-height: 1.2;
-    margin-left: 120px;
-    padding-bottom: 30px;
+    margin-left: 7.5rem;
+    /* Adjusted from px to rem */
+    padding-bottom: 1.875rem;
+    /* Adjusted from px to rem */
 }
 
 .left-section h1 {
-    margin-left: 120px;
-    font-size: 38px;
+    margin-left: 7.5rem;
+    /* Adjusted from px to rem */
+    font-size: 2.375rem;
+    /* Adjusted from px to rem */
     font-weight: bold;
-    margin-top: 10px;
+    margin-top: 0.625rem;
+    /* Adjusted from px to rem */
     font-family: 'Newsreader', serif;
 }
 
@@ -188,18 +194,23 @@ body {
 }
 
 .right-section li {
-    padding: 5px 0;
+    padding: 0.3125rem 0;
+    /* Adjusted from px to rem */
 }
 
 .social-icons {
-    margin-top: 20px;
+    margin-top: 1.25rem;
+    /* Adjusted from px to rem */
 }
 
 .social-icons a {
-    margin-right: 10px;
+    margin-right: 0.625rem;
+    /* Adjusted from px to rem */
 }
 
 .social-icons img {
-    width: 24px;
-    height: 24px;
+    width: 1.5rem;
+    /* Adjusted from px to rem */
+    height: 1.5rem;
+    /* Adjusted from px to rem */
 }
