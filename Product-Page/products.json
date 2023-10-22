@@ -1,0 +1,20 @@
+[
+    {
+        "id": "Ngoi",
+        "name": "Ngoi Mat Rong",
+        "image": "path/to/image1.jpg",
+        "brand": "My Xuan",
+        "description": "Sample description for product 1",
+        "category": "Category1",
+        "tag": "1"
+    },
+    {
+        "id": "Gach lat",
+        "name": "Ngoi Con So",
+        "image": "path/to/image2.jpg",
+        "brand": "My Xuan",
+        "description": "Sample description for product 2",
+        "category": "Category2",
+        "tag": "2"
+    }
+]
