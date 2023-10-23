@@ -1,7 +1,6 @@
 document.addEventListener('DOMContentLoaded', function () {
-
     const productContainer = document.getElementById('productContainer');
-    // Function to filter the displayed products based on the selected categories
+
     // Function to filter the displayed products based on the selected categories
     function filterProducts(categories) {
         // Get all the products from the container
