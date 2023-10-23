@@ -1,38 +1,110 @@
 document.addEventListener('DOMContentLoaded', function () {
     const productContainer = document.getElementById('productContainer');
+    const productsPerPage = 12;
+    let currentPage = 1;
+    let allProducts = [];
+    let filteredProducts = [];
 
-    // Function to filter the displayed products based on the selected categories
-    function filterProducts(categories) {
-        // Get all the products from the container
-        const products = productContainer.querySelectorAll('.col-3');
-
-        // Loop through each product and display/hide based on the categories
+    function renderProducts(products) {
+        productContainer.innerHTML = ''; // Clear current products
         products.forEach(product => {
-            const productCategory = product.querySelector('.product-category').textContent;
-            if (categories.includes(productCategory)) {
-                product.style.display = 'block';
-            } else {
-                product.style.display = 'none';
-            }
+            const col = document.createElement('div');
+            col.className = 'col-3';
+
+            const card = document.createElement('div');
+            card.className = 'card mb-3';
+            card.style.width = '16rem';
+            card.innerHTML = `
+                <img src="${product.image}" class="card-img-top product-image clickable" alt="${product.name}">
+                <div class="overlay-text clickable">Xem Thêm</div>
+                <div class="card-body">
+                    <p class="product-category">${product.category}</p>
+                    <h5 class="card-title">${product.name}</h5>
+                </div>
+            `;
+
+            col.appendChild(card);
+            productContainer.appendChild(col);
+
+            card.querySelector('.clickable').addEventListener('click', () => openProductModal(product));
+            card.querySelector('.overlay-text').addEventListener('click', () => openProductModal(product));
         });
     }
 
+    function updatePage() {
+        const startIndex = (currentPage - 1) * productsPerPage;
+        const endIndex = startIndex + productsPerPage;
+        const paginatedProducts = filteredProducts.slice(startIndex, endIndex);
+
+        renderProducts(paginatedProducts);
+
+        const paginationContainer = document.querySelector('.pagination');
+        paginationContainer.innerHTML = ''; // Clear current pagination
+
+        // "Previous" page button
+        const prevPageItem = document.createElement('li');
+        prevPageItem.className = `page-item ${currentPage === 1 ? 'disabled' : ''}`;
+        prevPageItem.innerHTML = `<a class="page-link" href="#" aria-label="Previous"><span aria-hidden="true">&laquo;</span></a>`;
+        prevPageItem.addEventListener('click', function (e) {
+            e.preventDefault();
+            if (currentPage > 1) {
+                currentPage--;
+                updatePage(); // Remove the extra line here
+            }
+        });
+        paginationContainer.appendChild(prevPageItem);
+
+        // Page number buttons
+        const totalPages = Math.ceil(filteredProducts.length / productsPerPage);
+        for (let i = 1; i <= totalPages; i++) {
+            const pageItem = document.createElement('li');
+            pageItem.className = `page-item ${i === currentPage ? 'active' : ''}`;
+            pageItem.innerHTML = `<a class="page-link" href="#">${i}</a>`;
+            pageItem.addEventListener('click', function (e) {
+                e.preventDefault();
+                currentPage = i;
+                updatePage();
+            });
+            paginationContainer.appendChild(pageItem);
+        }
+
+        // "Next" page button
+        const nextPageItem = document.createElement('li');
+        nextPageItem.className = `page-item ${currentPage === totalPages ? 'disabled' : ''}`;
+        nextPageItem.innerHTML = `<a class="page-link" href="#" aria-label="Next"><span aria-hidden="true">&raquo;</span></a>`;
+        nextPageItem.addEventListener('click', function (e) {
+            e.preventDefault();
+            if (currentPage < totalPages) {
+                currentPage++;
+                updatePage();
+            }
+        });
+        paginationContainer.appendChild(nextPageItem);
+    }
+
+    function filterProducts(categories) {
+        if (categories.length === 0) {
+            // If no categories are selected, reset to all products.
+            filteredProducts = allProducts.slice();
+        } else {
+            // Otherwise, filter based on the selected categories.
+            filteredProducts = allProducts.filter(product => categories.includes(product.category));
+        }
+        // Reset to the first page.
+        currentPage = 1;
+        // Update the page to reflect the new set of filtered products.
+        updatePage();
+    }
     // Event listener for each checkbox
     document.querySelectorAll('.form-check-input').forEach(checkbox => {
         checkbox.addEventListener('change', function () {
-            // Gather all selected categories
             const selectedCategories = Array.from(document.querySelectorAll('.form-check-input:checked')).map(checkbox => checkbox.id);
 
-            if (selectedCategories.length > 0) {
-                filterProducts(selectedCategories);
-            } else {
-                // Display all products if no checkboxes are selected
-                productContainer.querySelectorAll('.col-3').forEach(product => {
-                    product.style.display = 'block';
-                });
-            }
+            filterProducts(selectedCategories);
         });
     });
+
+
     // Function to open the modal
     function openProductModal(product) {
         const modal = new bootstrap.Modal(document.getElementById('exampleModal'));
@@ -43,58 +115,23 @@ document.addEventListener('DOMContentLoaded', function () {
         modal.show();
     }
 
-    // Fetch products data from the JSON file
     fetch('/Product-Page/products.json')
         .then(response => {
-            console.log("Fetched data:", response);
-            // Check if the fetch was successful
             if (!response.ok) {
                 throw new Error('Network response was not ok');
             }
             return response.json();
         })
         .then(products => {
-            products.forEach(product => {
-                const col = document.createElement('div');
-                col.className = 'col-3';
+            allProducts = products; // Save all products.
+            filteredProducts = allProducts.slice(); // Initialize filteredProducts with all products.
 
-                const card = document.createElement('div');
-                card.className = 'card mb-3';
-                card.style.width = '16rem';
-                card.innerHTML = `
-                <img src="${product.image}" class="card-img-top product-image clickable" alt="${product.name}">
-                <div class="overlay-text clickable">Xem Thêm</div>
-                <div class="card-body">
-                    <p class="product-category">${product.category}</p>
-                    <h5 class="card-title">${product.name}</h5>
-                </div>
-            `;
+            updatePage(); // Initial page setup.
 
-                col.appendChild(card);
-                productContainer.appendChild(col);
-
-                // Event listener to open modal when the image or "Xem Thêm" text is clicked
-                card.querySelector('.clickable').addEventListener('click', () => openProductModal(product));
-                card.querySelector('.overlay-text').addEventListener('click', () => openProductModal(product));
-            });
-
-            productContainer.addEventListener('click', function (event) {
-                const target = event.target;
-
-                // Check if the clicked element is a product image
-                if (target && target.classList.contains('product-image')) {
-                    const modal = new bootstrap.Modal(document.getElementById('exampleModal'));
-
-                    // Set the product name as the modal title
-                    const productName = target.nextElementSibling.querySelector('.card-title').innerText;
-                    document.getElementById('exampleModalLabel').innerText = productName;
-
-                    modal.show();
-                }
-            });
-
+            // ... rest of your fetch success handler ...
         })
         .catch(error => {
             console.error('Error fetching products:', error);
         });
+
 });
