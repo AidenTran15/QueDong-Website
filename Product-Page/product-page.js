@@ -89,7 +89,7 @@ document.addEventListener('DOMContentLoaded', function () {
             <img src="${product.image}" class="card-img-top" alt="${product.name}">
             <div class="card-body">
                 <h5 class="card-title">${product.name}</h5>
-                <a href="#" class="btn btn-primary">Read more</a>
+                <a href="#" class="btn btn-primary">Xem Thêm</a>
             </div>
         `;
         col.appendChild(card);
