@@ -523,22 +523,27 @@
                 </div>
             </div>
         </div>
+        <!-- Modal -->
         <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                        <h1 class="modal-title fs-5" id="modalProductName"></h1>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
-                        ...
+                        <img id="modalProductImage" src="" alt="Product Image"
+                            class="img-fluid mb-3 modal-product-image">
+                        <p id="modalProductCategory" class="mb-3"></p>
+                        <p id="modalProductDescription"></p>
                     </div>
                     <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Đóng</button>
                     </div>
                 </div>
             </div>
         </div>
+
 
         <script src="path-to-bootstrap-js"></script>
         <script src="your-custom-js.js"></script>

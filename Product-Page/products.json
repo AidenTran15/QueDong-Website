@@ -1,20 +1,74 @@
 [
     {
+        "id": "Gach lat",
+        "name": "AK-47 Asiimov",
+        "image": "../assest/product-images/Asiimov.jpg",
+        "brand": "My Xuan",
+        "description": "Sample description for product 2",
+        "category": "Ngói Xi Măng",
+        "tag": "2"
+    },
+    {
+        "id": "Gach lat",
+        "name": "AK47 Legion",
+        "image": "../assest/product-images/legion.jpg",
+        "brand": "My Xuan",
+        "description": "Sample description for product 2",
+        "category": "Ngói Gạch",
+        "tag": "2"
+    },
+    {
+        "id": "Gach lat",
+        "name": "AK-47 Elete Build",
+        "image": "../assest/product-images/elite.jpg",
+        "brand": "My Xuan",
+        "description": "Sample description for product 2",
+        "category": "Ngói bitum",
+        "tag": "2"
+    },
+    {
+        "id": "Gach lat",
+        "name": "Karambit",
+        "image": "../assest/product-images/Karambit.jpg",
+        "brand": "My Xuan",
+        "description": "Sample description for product 2",
+        "category": "Ngói kim loại",
+        "tag": "2"
+    },
+    {
         "id": "Ngoi",
-        "name": "Ngoi Mat Rong",
-        "image": "path/to/image1.jpg",
+        "name": "M4a4 Zirka",
+        "image": "../assest/product-images/Zirka.jpg",
         "brand": "My Xuan",
         "description": "Sample description for product 1",
-        "category": "Category1",
+        "category": "Ngói tôn sóng",
         "tag": "1"
     },
     {
         "id": "Gach lat",
-        "name": "Ngoi Con So",
-        "image": "path/to/image2.jpg",
+        "name": "M4a4 Evil",
+        "image": "../assest/product-images/Evil.jpg",
         "brand": "My Xuan",
         "description": "Sample description for product 2",
-        "category": "Category2",
+        "category": "Ngói lợp màu",
+        "tag": "2"
+    },
+    {
+        "id": "Gach lat",
+        "name": "M4a4 Evil 2",
+        "image": "../assest/product-images/Evil2.jpg",
+        "brand": "My Xuan",
+        "description": "Sample description for product 2",
+        "category": "Gạch lát bê tông",
+        "tag": "2"
+    },
+    {
+        "id": "Gach lat",
+        "name": "M4a4 Neo-Nier",
+        "image": "../assest/product-images/neo.jpg",
+        "brand": "My Xuan",
+        "description": "Sample description for product 2",
+        "category": "Gạch lát bóng kính",
         "tag": "2"
     }
 ]

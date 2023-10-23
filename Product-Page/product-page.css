@@ -128,52 +128,19 @@ body {
 }
 
 .product-category {
-    font-size: 0.75rem;
+    font-size: 0.85rem;
     color: #777;
     margin-bottom: 0;
-    /* Remove bottom margin to keep it close to the centered content */
-    text-align: left;
-    /* Align text to the left */
+    margin-top: -8px;
+    /* Decrease the top margin to move the category up */
 }
 
 .card-body {
-    display: flex;
-    /* Use flexbox to allow for centering and alignment */
-    flex-direction: column;
-    /* Stack child elements */
-    justify-content: center;
-    /* Center content vertically */
-    align-items: center;
-    /* Center content horizontally */
-    position: relative;
-    /* Allow for absolute positioning within this container */
+    /* Remove flexbox if you don't need to center other content within this container. */
+    align-items: flex-start;
+    /* Align child content to the left */
 }
 
-.center-content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    /* Center content horizontally */
-    justify-content: center;
-    /* Center content vertically */
-    width: 100%;
-    /* Full width to allow the category to be at the top left */
-}
-
-.center-content .card-title,
-.center-content .btn {
-    text-align: center;
-    /* Center text within elements */
-}
-
-.product-category {
-    position: absolute;
-    /* Position absolutely within the card-body */
-    top: 0;
-    /* Align to the top */
-    left: 0;
-    /* Align to the left */
-}
 
 .product-image {
     width: 100%;
@@ -228,4 +195,21 @@ body {
 
 .clickable {
     cursor: pointer;
+}
+
+.modal-product-image {
+    width: 80%;
+    /* Reduce to desired width */
+    height: 50px;
+    /* Reduce the height */
+    object-fit: cover;
+    transition: transform 0.3s;
+    margin: 0 auto;
+    /* To center the image horizontally */
+    display: block;
+    /* To make the margin apply correctly */
+}
+
+div.modal-content .modal-product-image {
+    height: 350px;
 }
