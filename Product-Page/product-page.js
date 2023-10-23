@@ -80,19 +80,48 @@ document.addEventListener('DOMContentLoaded', function () {
 
     products.forEach(product => {
         const col = document.createElement('div');
-        col.className = 'col-3'; // This creates 3 cards in a row
+        col.className = 'col-3';
 
         const card = document.createElement('div');
         card.className = 'card mb-3';
         card.style.width = '16rem';
         card.innerHTML = `
-        <img src="${product.image}" class="card-img-top product-image" alt="${product.name}"> 
-        <div class="card-body">
-            <h5 class="card-title">${product.name}</h5>
-            <a href="#" class="btn btn-primary">Xem Thêm</a>
-        </div>
-    `;
+            <img src="${product.image}" class="card-img-top product-image clickable" alt="${product.name}">
+            <div class="overlay-text clickable">Xem Thêm</div>
+            <div class="card-body">
+                <p class="product-category">${product.category}</p>
+                <h5 class="card-title">${product.name}</h5>
+            </div>
+        `;
+
         col.appendChild(card);
         productContainer.appendChild(col);
+
+        // Function to open the modal
+        function openProductModal() {
+            const modal = new bootstrap.Modal(document.getElementById('exampleModal'));
+            document.getElementById('exampleModalLabel').innerText = product.name;
+            modal.show();
+        }
+
+        // Event listener to open modal when the image is clicked
+        card.querySelector('.product-image').addEventListener('click', openProductModal);
+
+        // Event listener to open modal when the "Xem Thêm" text is clicked
+        card.querySelector('.overlay-text').addEventListener('click', openProductModal);
+    });
+    productContainer.addEventListener('click', function (event) {
+        const target = event.target;
+
+        // Check if the clicked element is a product image
+        if (target && target.classList.contains('product-image')) {
+            const modal = new bootstrap.Modal(document.getElementById('exampleModal'));
+
+            // Set the product name as the modal title
+            const productName = target.nextElementSibling.querySelector('.card-title').innerText;
+            document.getElementById('exampleModalLabel').innerText = productName;
+
+            modal.show();
+        }
     });
 });
