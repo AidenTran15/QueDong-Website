@@ -1,7 +1,39 @@
 document.addEventListener('DOMContentLoaded', function () {
 
     const productContainer = document.getElementById('productContainer');
+    // Function to filter the displayed products based on the selected categories
+    // Function to filter the displayed products based on the selected categories
+    function filterProducts(categories) {
+        // Get all the products from the container
+        const products = productContainer.querySelectorAll('.col-3');
 
+        // Loop through each product and display/hide based on the categories
+        products.forEach(product => {
+            const productCategory = product.querySelector('.product-category').textContent;
+            if (categories.includes(productCategory)) {
+                product.style.display = 'block';
+            } else {
+                product.style.display = 'none';
+            }
+        });
+    }
+
+    // Event listener for each checkbox
+    document.querySelectorAll('.form-check-input').forEach(checkbox => {
+        checkbox.addEventListener('change', function () {
+            // Gather all selected categories
+            const selectedCategories = Array.from(document.querySelectorAll('.form-check-input:checked')).map(checkbox => checkbox.id);
+
+            if (selectedCategories.length > 0) {
+                filterProducts(selectedCategories);
+            } else {
+                // Display all products if no checkboxes are selected
+                productContainer.querySelectorAll('.col-3').forEach(product => {
+                    product.style.display = 'block';
+                });
+            }
+        });
+    });
     // Function to open the modal
     function openProductModal(product) {
         const modal = new bootstrap.Modal(document.getElementById('exampleModal'));
