@@ -73,3 +73,111 @@
 </footer>
 
 </html>
+
+
+
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-1 d-flex align-items-center">
+            <button class="carousel-button left ml-3" onclick="moveLeft()">&#x3C;</button>
+        </div>
+
+        <div class="col-10">
+            <div class="carousel-content">
+                <div class="collections-wrapper">
+
+                    <div class="collection-item">
+                        <img src="/assest/product-images/Asiimov.jpg" alt="Drench & Quench Collection">
+                        <div class="collection-title">AK47 Asiimov</div>
+                    </div>
+
+                    <!-- Bright Idea Collection -->
+                    <div class="collection-item">
+                        <img src="/assest/product-images/Zirka.jpg" alt="Bright Idea Collection">
+                        <div class="collection-title">M4a4 Zirka</div>
+                    </div>
+
+                    <!-- Merry, Blissed Out and Bright Collection -->
+                    <div class="collection-item">
+                        <img src="/assest/product-images/legion.jpg" alt="Merry, Blissed Out and Bright Collection">
+                        <div class="collection-title">AK47 Legion</div>
+                    </div>
+
+                    <!-- Youth Got This Collection -->
+                    <div class="collection-item">
+                        <img src="/assest/product-images/Evil.jpg" alt="Youth Got This Collection">
+                        <div class="collection-title">M4a4 Evil™</div>
+                    </div>
+                    <!-- Bright Idea Collection -->
+                    <div class="collection-item">
+                        <img src="/assest/product-images/Zirka.jpg" alt="Bright Idea Collection">
+                        <div class="collection-title">M4a4 Zirka</div>
+                    </div>
+                    <!-- Bright Idea Collection -->
+                    <div class="collection-item">
+                        <img src="/assest/product-images/Zirka.jpg" alt="Bright Idea Collection">
+                        <div class="collection-title">M4a4 Zirka</div>
+                    </div>
+                    <!-- Bright Idea Collection -->
+                    <div class="collection-item">
+                        <img src="/assest/product-images/Zirka.jpg" alt="Bright Idea Collection">
+                        <div class="collection-title">M4a4 Zirka</div>
+                    </div>
+                    <!-- Bright Idea Collection -->
+                    <div class="collection-item">
+                        <img src="/assest/product-images/Zirka.jpg" alt="Bright Idea Collection">
+                        <div class="collection-title">M4a4 Zirka</div>
+                    </div>
+                    <!-- Bright Idea Collection -->
+                    <div class="collection-item">
+                        <img src="/assest/product-images/Zirka.jpg" alt="Bright Idea Collection">
+                        <div class="collection-title">M4a4 Zirka</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-1 d-flex align-items-center justify-content-end">
+            <button class="carousel-button right mr-3" onclick="moveRight()">&#x3E;</button>
+        </div>
+    </div>
+</div>
+
+<script>
+    let scrollAmount = 0;
+    let carouselPosition = 0;
+    let totalItems = document.querySelectorAll(".collection-item").length; // Total number of items in the carousel
+    let itemsDisplayed = 3; // Number of items displayed at once
+    let maxPosition = totalItems - itemsDisplayed; // Maximum position before hiding the right button
+
+    function moveRight() {
+        const collectionSection = document.querySelector('.collections-wrapper');
+        scrollAmount += 300;
+        collectionSection.style.transform = 'translateX(-' + scrollAmount + 'px)';
+        carouselPosition++;
+        // Since we've moved to the right, show the left button
+        document.querySelector(".carousel-button.left").style.display = "block";
+
+        // Check if we've reached the end of the carousel
+        if (carouselPosition >= maxPosition) {
+            document.querySelector(".carousel-button.right").style.display = "none";
+        }
+    }
+
+    function moveLeft() {
+        const collectionSection = document.querySelector('.collections-wrapper');
+        if (scrollAmount > 0) {
+            scrollAmount -= 300;
+            collectionSection.style.transform = 'translateX(-' + scrollAmount + 'px)';
+        }
+        carouselPosition--;
+        if (carouselPosition <= 0) {
+            document.querySelector(".carousel-button.left").style.display = "none";
+        }
+
+        // Ensure the right button is visible when moving left
+        document.querySelector(".carousel-button.right").style.display = "block";
+    }
+</script>
+
+</div>
