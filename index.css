@@ -163,3 +163,15 @@ body {
     margin: auto;
     /* To center the image */
 }
+
+.no-overlay.carousel-control-prev:hover,
+.no-overlay.carousel-control-next:hover {
+    background-color: transparent;
+    /* Removes the overlay effect when hovered */
+}
+
+.no-overlay.carousel-control-prev:focus,
+.no-overlay.carousel-control-next:focus {
+    box-shadow: none;
+    /* Removes the focus outline */
+}
