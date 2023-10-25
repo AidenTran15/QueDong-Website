@@ -16,7 +16,7 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
-
+    <script src="index.js"></script>
 
 </head>
 
@@ -194,7 +194,54 @@
             <img src="/assest/divider2.png" alt="Background Image" class="shop-background">
             <h1 class="shop-text">SHOP BY CATEGORY</h1>
         </div>
+
+        <div class="section-title d-flex justify-content-center align-items-center mt-5 mb-5">
+            <h1 class="text-center">Our Collection</h1>
+        </div>
+
+        <div class="container-fluid"> <!-- Added a container to wrap everything inside -->
+            <div class="row justify-content-center"> <!-- Added a row with justify-content-center -->
+                <div class="col-10">
+                    <div id="productbycategory" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner" id="productContainer">
+                            <!-- Products will be inserted here -->
+                        </div>
+
+                        <!-- Carousel controls -->
+                        <div class="card-control mt-5 mb-5">
+                            <span class="card-control-prev" href="#productbycategory" role="button"
+                                data-slide="prev">PREV</span>
+                            <span class="carousel-pause">II</span>
+                            <span class="card-control-next" href="#productbycategory" role="button"
+                                data-slide="next">NEXT</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
 </body>
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="modalProductName"></h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <img id="modalProductImage" src="" alt="Product Image" class="img-fluid mb-3 modal-product-image">
+                <p id="modalProductCategory" class="mb-3"></p>
+                <p id="modalProductDescription"></p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Đóng</button>
+            </div>
+        </div>
+    </div>
+</div>
 
 <!-- Footer -->
 <footer class="footer bg-dark text-white">

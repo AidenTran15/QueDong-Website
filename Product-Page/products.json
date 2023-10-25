@@ -1,6 +1,6 @@
 [
     {
-        "id": "Gach lat",
+        "id": "Ngói",
         "name": "AK-47 Asiimovvv",
         "image": "../assest/product-images/Asiimov.jpg",
         "brand": "My Xuan",
@@ -9,16 +9,16 @@
         "tag": "2"
     },
     {
-        "id": "Gach lat",
+        "id": "Ngói",
         "name": "AK47 Legion",
         "image": "../assest/product-images/legion.jpg",
-        "brand": "My Xuan",
+        "brand": "",
         "description": "Sample description for product 2",
         "category": "Ngói Gạch",
         "tag": "2"
     },
     {
-        "id": "Gach lat",
+        "id": "Ngói",
         "name": "AK-47 Elete Build",
         "image": "../assest/product-images/elite.jpg",
         "brand": "My Xuan",
@@ -27,10 +27,10 @@
         "tag": "2"
     },
     {
-        "id": "Gach lat",
+        "id": "Ngói",
         "name": "Karambit",
         "image": "../assest/product-images/Karambit.jpg",
-        "brand": "My Xuan",
+        "brand": "",
         "description": "Sample description for product 2",
         "category": "Ngói kim loại",
         "tag": "2"
