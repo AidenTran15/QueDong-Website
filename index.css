@@ -179,7 +179,6 @@ body {
     width: 100%;
     height: 350px;
     object-fit: cover;
-    border-radius: 10px;
 }
 
 .d-flex>.product:not(:last-child) {
@@ -188,8 +187,6 @@ body {
 }
 
 .collection-title {
-    margin-top: 30px;
-    margin-bottom: 30px;
     font-size: 25px;
     font-family: 'Montserrat', sans-serif;
 }
