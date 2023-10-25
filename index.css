@@ -182,25 +182,43 @@ body {
     border-radius: 10px;
 }
 
-/* Additional CSS for margins */
 .d-flex>.product:not(:last-child) {
     margin-right: 10px;
     /* Adjust this to your desired gap */
 }
-
-
 
 .collection-title {
     margin-top: 30px;
     margin-bottom: 30px;
     font-size: 25px;
     font-family: 'Montserrat', sans-serif;
+}
 
-
+.section-title {
+    font-family: 'Cera Stencil Pro', 'Montserrat', sans-serif;
 }
 
 
 
-.section-title {
-    font-family: 'Cera Stencil Pro', 'Montserrat', sans-serif;
+.card {
+    position: relative;
+    /* Ensure this is set so we can position the controls relative to the card */
+}
+
+.card-control {
+    display: flex;
+    justify-content: center;
+    /* This will center the children horizontally */
+    align-items: center;
+    /* This will center the children vertically */
+    width: 100%;
+    /* Ensure it takes up the full width */
+    gap: 20px;
+    /* Adjust this value to give desired space between the card content and the controls */
+}
+
+.card-control-prev,
+.card-control-next {
+    cursor: pointer;
+    /* Add any additional styles for PREV and NEXT here */
 }
