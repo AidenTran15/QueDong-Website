@@ -149,17 +149,17 @@
         "brand": [
             "Takao - Vera, Veras, Luxury, Milans, Shihata King",
             "Viglacera Thăng Long",
-            "Primier-Hera"
+            "Primer-Hera"
         ],
         "dimension": "N/A"
     },
     {
         "id": "N/A",
-        "name": "Đát Nung",
+        "name": "Đất Nung",
         "image": "https://qd-product-images.s3.ap-southeast-2.amazonaws.com/product-image.png",
         "category": "Ngói",
         "description": "Sample description for product #1",
-        "subcategory": "Ngói 10",
+        "subcategory": "Ngói 12",
         "tag": "N/A",
         "brand": [
             "Đất Việt"
@@ -172,9 +172,587 @@
         "image": "https://qd-product-images.s3.ap-southeast-2.amazonaws.com/product-image.png",
         "category": "Ngói",
         "description": "Sample description for product #1",
-        "subcategory": "Ngói 10",
+        "subcategory": "Ngói 12",
         "tag": "N/A",
         "brand": [
+            "Đất Việt"
+        ],
+        "dimension": "N/A"
+    },
+    {
+        "id": "N/A",
+        "name": "Đất Nung",
+        "image": "https://qd-product-images.s3.ap-southeast-2.amazonaws.com/product-image.png",
+        "category": "Ngói",
+        "description": "Sample description for product #1",
+        "subcategory": "Ngói 09",
+        "tag": "N/A",
+        "brand": [
+            "Đất Việt"
+        ],
+        "dimension": "N/A"
+    },
+    {
+        "id": "N/A",
+        "name": "Đất Nung Tráng Men",
+        "image": "https://qd-product-images.s3.ap-southeast-2.amazonaws.com/product-image.png",
+        "category": "Ngói",
+        "description": "Sample description for product #1",
+        "subcategory": "Ngói 09",
+        "tag": "N/A",
+        "brand": [
+            "Đất Việt"
+        ],
+        "dimension": "N/A"
+    },
+    {
+        "id": "N/A",
+        "name": "Đất Nung",
+        "image": "https://qd-product-images.s3.ap-southeast-2.amazonaws.com/product-image.png",
+        "category": "Ngói",
+        "description": "Sample description for product #1",
+        "subcategory": "Ngói Âm Dương",
+        "tag": "N/A",
+        "brand": [
+            "Đồng Nai",
+            "Mỹ Xuân",
+            "Đất Việt",
+            "Bát Tràng Hà Nội",
+            "Bình Dương"
+        ],
+        "dimension": "N/A"
+    },
+    {
+        "id": "N/A",
+        "name": "Đất Nung Tráng Men",
+        "image": "https://qd-product-images.s3.ap-southeast-2.amazonaws.com/product-image.png",
+        "category": "Ngói",
+        "description": "Sample description for product #1",
+        "subcategory": "Ngói Âm Dương",
+        "tag": "N/A",
+        "brand": [
+            "Bát Tràng Hà Nội",
+            "Bình Dương"
+        ],
+        "dimension": "N/A"
+    },
+    {
+        "id": "N/A",
+        "name": "Đất Nung",
+        "image": "https://qd-product-images.s3.ap-southeast-2.amazonaws.com/product-image.png",
+        "category": "Ngói",
+        "description": "Sample description for product #1",
+        "subcategory": "Ngói Mũi Hài Nhỏ",
+        "tag": "N/A",
+        "brand": [
+            "Đồng Nai",
+            "Mỹ Xuân",
+            "Hạ Long",
+            "Gốm Mỹ",
+            "Đất Việt"
+        ],
+        "dimension": "N/A"
+    },
+    {
+        "id": "N/A",
+        "name": "Đất Nung Tráng Men",
+        "image": "https://qd-product-images.s3.ap-southeast-2.amazonaws.com/product-image.png",
+        "category": "Ngói",
+        "description": "Sample description for product #1",
+        "subcategory": "Ngói Mũi Hài Nhỏ",
+        "tag": "N/A",
+        "brand": [
+            "Mỹ Xuân",
+            "Đất Việt"
+        ],
+        "dimension": "N/A"
+    },
+    {
+        "id": "N/A",
+        "name": "Đất Nung",
+        "image": "https://qd-product-images.s3.ap-southeast-2.amazonaws.com/product-image.png",
+        "category": "Ngói",
+        "description": "Sample description for product #1",
+        "subcategory": "Ngói Mũi Hài Trung",
+        "tag": "N/A",
+        "brand": [
+            "Đồng Nai"
+        ],
+        "dimension": "N/A"
+    },
+    {
+        "id": "N/A",
+        "name": "Đất Nung Tráng Men",
+        "image": "https://qd-product-images.s3.ap-southeast-2.amazonaws.com/product-image.png",
+        "category": "Ngói",
+        "description": "Sample description for product #1",
+        "subcategory": "Ngói Mũi Hài Trung",
+        "tag": "N/A",
+        "brand": [
+            "Đồng Nai"
+        ],
+        "dimension": "N/A"
+    },
+    {
+        "id": "N/A",
+        "name": "Đất Nung",
+        "image": "https://qd-product-images.s3.ap-southeast-2.amazonaws.com/product-image.png",
+        "category": "Ngói",
+        "description": "Sample description for product #1",
+        "subcategory": "Ngói Mũi Hài Lớn",
+        "tag": "N/A",
+        "brand": [
+            "Đồng Nai",
+            "Mỹ Xuân",
+            "Hạ Long",
+            "Đất Việt"
+        ],
+        "dimension": "N/A"
+    },
+    {
+        "id": "N/A",
+        "name": "Đất Nung Tráng Men",
+        "image": "https://qd-product-images.s3.ap-southeast-2.amazonaws.com/product-image.png",
+        "category": "Ngói",
+        "description": "Sample description for product #1",
+        "subcategory": "Ngói Mũi Hài Lớn",
+        "tag": "N/A",
+        "brand": [
+            "Đồng Nai",
+            "Mỹ Xuân",
+            "Đất Việt"
+        ],
+        "dimension": "N/A"
+    },
+    {
+        "id": "N/A",
+        "name": "Đất Nung",
+        "image": "https://qd-product-images.s3.ap-southeast-2.amazonaws.com/product-image.png",
+        "category": "Ngói",
+        "description": "Sample description for product #1",
+        "subcategory": "Ngói Con Sò",
+        "tag": "N/A",
+        "brand": [
+            "Mỹ Xuân",
+            "Hạ Long",
+            "Đất Việt",
+            "Đồng Nai"
+        ],
+        "dimension": "N/A"
+    },
+    {
+        "id": "N/A",
+        "name": "Đất Nung Tráng Men",
+        "image": "https://qd-product-images.s3.ap-southeast-2.amazonaws.com/product-image.png",
+        "category": "Ngói",
+        "description": "Sample description for product #1",
+        "subcategory": "Ngói Con Sò",
+        "tag": "N/A",
+        "brand": [
+            "Mỹ Xuân",
+            "Đất Việt"
+        ],
+        "dimension": "N/A"
+    },
+    {
+        "id": "N/A",
+        "name": "Đất Nung",
+        "image": "https://qd-product-images.s3.ap-southeast-2.amazonaws.com/product-image.png",
+        "category": "Ngói",
+        "description": "Sample description for product #1",
+        "subcategory": "Ngói Nóc Lớn",
+        "tag": "N/A",
+        "brand": [
+            "Đồng Nai",
+            "Mỹ Xuân",
+            "Hạ Long",
+            "Gốm Mỹ",
+            "Đất Việt"
+        ],
+        "dimension": "N/A"
+    },
+    {
+        "id": "N/A",
+        "name": "Đất Nung Tráng Men",
+        "image": "https://qd-product-images.s3.ap-southeast-2.amazonaws.com/product-image.png",
+        "category": "Ngói",
+        "description": "Sample description for product #1",
+        "subcategory": "Ngói Nóc Lớn",
+        "tag": "N/A",
+        "brand": [
+            "Đồng Nai",
+            "Mỹ Xuân",
+            "Hạ Long",
+            "Gốm Mỹ",
+            "Đất Việt"
+        ],
+        "dimension": "N/A"
+    },
+    {
+        "id": "N/A",
+        "name": "Đất Nung",
+        "image": "https://qd-product-images.s3.ap-southeast-2.amazonaws.com/product-image.png",
+        "category": "Ngói",
+        "description": "Sample description for product #1",
+        "subcategory": "Ngói Nóc Trung",
+        "tag": "N/A",
+        "brand": [
+            "Đồng Nai"
+        ],
+        "dimension": "N/A"
+    },
+    {
+        "id": "N/A",
+        "name": "Đất Nung Tráng Men",
+        "image": "https://qd-product-images.s3.ap-southeast-2.amazonaws.com/product-image.png",
+        "category": "Ngói",
+        "description": "Sample description for product #1",
+        "subcategory": "Ngói Nóc Trung",
+        "tag": "N/A",
+        "brand": [
+            "Đồng Nai"
+        ],
+        "dimension": "N/A"
+    },
+    {
+        "id": "N/A",
+        "name": "Đất Nung",
+        "image": "https://qd-product-images.s3.ap-southeast-2.amazonaws.com/product-image.png",
+        "category": "Ngói",
+        "description": "Sample description for product #1",
+        "subcategory": "Ngói Vẩy Cá",
+        "tag": "N/A",
+        "brand": [
+            "Đồng Nai",
+            "Mỹ Xuân",
+            "Hạ Long",
+            "Gốm Mỹ",
+            "Đất Việt"
+        ],
+        "dimension": "N/A"
+    },
+    {
+        "id": "N/A",
+        "name": "Đất Nung Tráng Men",
+        "image": "https://qd-product-images.s3.ap-southeast-2.amazonaws.com/product-image.png",
+        "category": "Ngói",
+        "description": "Sample description for product #1",
+        "subcategory": "Ngói Vẩy Cá",
+        "tag": "N/A",
+        "brand": [
+            "Đồng Nai",
+            "Mỹ Xuân",
+            "Gốm Mỹ",
+            "Đất Việt"
+        ],
+        "dimension": "N/A"
+    },
+    {
+        "id": "N/A",
+        "name": "Đất Nung",
+        "image": "https://qd-product-images.s3.ap-southeast-2.amazonaws.com/product-image.png",
+        "category": "Ngói",
+        "description": "Sample description for product #1",
+        "subcategory": "Ngói Vẩy Cá Nhỏ",
+        "tag": "N/A",
+        "brand": [
+            "Mỹ Xuân"
+        ],
+        "dimension": "N/A"
+    },
+    {
+        "id": "N/A",
+        "name": "Đất Nung",
+        "image": "https://qd-product-images.s3.ap-southeast-2.amazonaws.com/product-image.png",
+        "category": "Ngói",
+        "description": "Sample description for product #1",
+        "subcategory": "Ngói Màn Chữ Thọ",
+        "tag": "N/A",
+        "brand": [
+            "Đồng Nai",
+            "Mỹ Xuân",
+            "Hạ Long",
+            "Đất Việt"
+        ],
+        "dimension": "N/A"
+    },
+    {
+        "id": "N/A",
+        "name": "Đất Nung Tráng Men",
+        "image": "https://qd-product-images.s3.ap-southeast-2.amazonaws.com/product-image.png",
+        "category": "Ngói",
+        "description": "Sample description for product #1",
+        "subcategory": "Ngói Màn Chữ Thọ",
+        "tag": "N/A",
+        "brand": [
+            "Mỹ Xuân",
+            "Đất Việt"
+        ],
+        "dimension": "N/A"
+    },
+    {
+        "id": "N/A",
+        "name": "Đất Nung",
+        "image": "https://qd-product-images.s3.ap-southeast-2.amazonaws.com/product-image.png",
+        "category": "Ngói",
+        "description": "Sample description for product #1",
+        "subcategory": "Ngói Hài Cổ Hai Vai",
+        "tag": "N/A",
+        "brand": [
+            "Hạ Long",
+            "Đất Việt"
+        ],
+        "dimension": "N/A"
+    },
+    {
+        "id": "N/A",
+        "name": "Đất Nung Tráng Men",
+        "image": "https://qd-product-images.s3.ap-southeast-2.amazonaws.com/product-image.png",
+        "category": "Ngói",
+        "description": "Sample description for product #1",
+        "subcategory": "Ngói Hài Cổ Hai Vai",
+        "tag": "N/A",
+        "brand": [
+            "Đất Việt"
+        ],
+        "dimension": "N/A"
+    },
+    {
+        "id": "N/A",
+        "name": "Xi Măng Màu",
+        "image": "https://qd-product-images.s3.ap-southeast-2.amazonaws.com/product-image.png",
+        "category": "Ngói",
+        "description": "Sample description for product #1",
+        "subcategory": "Ngói Phẳng",
+        "tag": "N/A",
+        "brand": [
+            "Ruby",
+            "Nippon",
+            "Nakamura"
+        ],
+        "dimension": "N/A"
+    },
+    {
+        "id": "N/A",
+        "name": "Ceramic Tráng Men",
+        "image": "https://qd-product-images.s3.ap-southeast-2.amazonaws.com/product-image.png",
+        "category": "Ngói",
+        "description": "Sample description for product #1",
+        "subcategory": "Ngói Phẳng",
+        "tag": "N/A",
+        "brand": [
+            "Viglacera Thăng Long"
+        ],
+        "dimension": "N/A"
+    },
+    {
+        "id": "N/A",
+        "name": "Đất Nung",
+        "image": "https://qd-product-images.s3.ap-southeast-2.amazonaws.com/product-image.png",
+        "category": "Ngói",
+        "description": "Sample description for product #1",
+        "subcategory": "Ngói Rìa",
+        "tag": "N/A",
+        "brand": [
+            "Đồng Nai",
+            "Mỹ Xuân",
+            "Hạ Long",
+            "Gốm Mỹ",
+            "Đất Việt"
+        ],
+        "dimension": "N/A"
+    },
+    {
+        "id": "N/A",
+        "name": "Đất Nung Tráng Men",
+        "image": "https://qd-product-images.s3.ap-southeast-2.amazonaws.com/product-image.png",
+        "category": "Ngói",
+        "description": "Sample description for product #1",
+        "subcategory": "Ngói Rìa",
+        "tag": "N/A",
+        "brand": [
+            "Đồng Nai",
+            "Mỹ Xuân",
+            "Hạ Long",
+            "Gốm Mỹ",
+            "Đất Việt"
+        ],
+        "dimension": "N/A"
+    },
+    {
+        "id": "N/A",
+        "name": "Xi Măng Màu",
+        "image": "https://qd-product-images.s3.ap-southeast-2.amazonaws.com/product-image.png",
+        "category": "Ngói",
+        "description": "Sample description for product #1",
+        "subcategory": "Ngói Rìa",
+        "tag": "N/A",
+        "brand": [
+            "Công Nghệ Ý (9 viên) - SCG, Mỹ Xuân, Lama, Đồng Tâm",
+            "Công Nghệ Nhật (10 viên) - Ruby, DIC, BM, Nippon, Nakamura, Sunrise"
+        ],
+        "dimension": "N/A"
+    },
+    {
+        "id": "N/A",
+        "name": "Ceramic Tráng Men",
+        "image": "https://qd-product-images.s3.ap-southeast-2.amazonaws.com/product-image.png",
+        "category": "Ngói",
+        "description": "Sample description for product #1",
+        "subcategory": "Ngói Rìa",
+        "tag": "N/A",
+        "brand": [
+            "Takao - Vera, Veras, Luxury, Milans, Shihata King",
+            "Viglacera Thăng Long",
+            "Primer-Hera"
+        ],
+        "dimension": "N/A"
+    },
+    {
+        "id": "N/A",
+        "name": "Xi Măng Màu",
+        "image": "https://qd-product-images.s3.ap-southeast-2.amazonaws.com/product-image.png",
+        "category": "Ngói",
+        "description": "Sample description for product #1",
+        "subcategory": "Ngói Cuối Rìa",
+        "tag": "N/A",
+        "brand": [
+            "Công Nghệ Ý (9 viên) - SCG, Mỹ Xuân, Lama, Đồng Tâm",
+            "Công Nghệ Nhật (10 viên) - Ruby, DIC, BM, Nippon, Nakamura, Sunrise"
+        ],
+        "dimension": "N/A"
+    },
+    {
+        "id": "N/A",
+        "name": "Ceramic Tráng Men",
+        "image": "https://qd-product-images.s3.ap-southeast-2.amazonaws.com/product-image.png",
+        "category": "Ngói",
+        "description": "Sample description for product #1",
+        "subcategory": "Ngói Cuối Rìa",
+        "tag": "N/A",
+        "brand": [
+            "Takao - Vera, Veras, Luxury, Milans, Shihata King",
+            "Viglacera Thăng Long",
+            "Primer-Hera"
+        ],
+        "dimension": "N/A"
+    },
+    {
+        "id": "N/A",
+        "name": "Đất Nung",
+        "image": "https://qd-product-images.s3.ap-southeast-2.amazonaws.com/product-image.png",
+        "category": "Ngói",
+        "description": "Sample description for product #1",
+        "subcategory": "Ngói Cuối Nóc Lớn",
+        "tag": "N/A",
+        "brand": [
+            "Đồng Nai",
+            "Mỹ Xuân",
+            "Hạ Long",
+            "Gốm Mỹ",
+            "Đất Việt"
+        ],
+        "dimension": "N/A"
+    },
+    {
+        "id": "N/A",
+        "name": "Đất Nung Tráng Men",
+        "image": "https://qd-product-images.s3.ap-southeast-2.amazonaws.com/product-image.png",
+        "category": "Ngói",
+        "description": "Sample description for product #1",
+        "subcategory": "Ngói Cuối Nóc Lớn",
+        "tag": "N/A",
+        "brand": [
+            "Đồng Nai",
+            "Mỹ Xuân",
+            "Hạ Long",
+            "Gốm Mỹ",
+            "Đất Việt"
+        ],
+        "dimension": "N/A"
+    },
+    {
+        "id": "N/A",
+        "name": "Xi Măng Màu",
+        "image": "https://qd-product-images.s3.ap-southeast-2.amazonaws.com/product-image.png",
+        "category": "Ngói",
+        "description": "Sample description for product #1",
+        "subcategory": "Ngói Cuối Nóc Lớn",
+        "tag": "N/A",
+        "brand": [
+            "Công Nghệ Ý (9 viên) - SCG, Mỹ Xuân, Lama, Đồng Tâm",
+            "Công Nghệ Nhật (10 viên) - Ruby, DIC, BM, Nippon, Nakamura, Sunrise"
+        ],
+        "dimension": "N/A"
+    },
+    {
+        "id": "N/A",
+        "name": "Ceramic Tráng Men",
+        "image": "https://qd-product-images.s3.ap-southeast-2.amazonaws.com/product-image.png",
+        "category": "Ngói",
+        "description": "Sample description for product #1",
+        "subcategory": "Ngói Cuối Nóc Lớn",
+        "tag": "N/A",
+        "brand": [
+            "Takao - Vera, Veras, Luxury, Milans, Shihata King",
+            "Viglacera Thăng Long",
+            "Primer-Hera"
+        ],
+        "dimension": "N/A"
+    },
+    {
+        "id": "N/A",
+        "name": "Đất Nung",
+        "image": "https://qd-product-images.s3.ap-southeast-2.amazonaws.com/product-image.png",
+        "category": "Ngói",
+        "description": "Sample description for product #1",
+        "subcategory": "Ngói Cuối Nóc Trung",
+        "tag": "N/A",
+        "brand": [
+            "Đất Việt"
+        ],
+        "dimension": "N/A"
+    },
+    {
+        "id": "N/A",
+        "name": "Đất Nung Tráng Men",
+        "image": "https://qd-product-images.s3.ap-southeast-2.amazonaws.com/product-image.png",
+        "category": "Ngói",
+        "description": "Sample description for product #1",
+        "subcategory": "Ngói Cuối Nóc Trung",
+        "tag": "N/A",
+        "brand": [
+            "Đất Việt"
+        ],
+        "dimension": "N/A"
+    },
+    {
+        "id": "N/A",
+        "name": "Đất Nung",
+        "image": "https://qd-product-images.s3.ap-southeast-2.amazonaws.com/product-image.png",
+        "category": "Ngói",
+        "description": "Sample description for product #1",
+        "subcategory": "Ngói Nóc Nhỏ",
+        "tag": "N/A",
+        "brand": [
+            "Đồng Nai",
+            "Mỹ Xuân",
+            "Hạ Long",
+            "Gốm Mỹ",
+            "Đất Việt"
+        ],
+        "dimension": "N/A"
+    },
+    {
+        "id": "N/A",
+        "name": "Đất Nung Tráng Men",
+        "image": "https://qd-product-images.s3.ap-southeast-2.amazonaws.com/product-image.png",
+        "category": "Ngói",
+        "description": "Sample description for product #1",
+        "subcategory": "Ngói Nóc Nhỏ",
+        "tag": "N/A",
+        "brand": [
+            "Mỹ Xuân",
             "Đất Việt"
         ],
         "dimension": "N/A"
