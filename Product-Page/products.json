@@ -1,146 +1,182 @@
 [
     {
-        "id": "Ngói",
-        "name": "AK-47 Asiimovvv",
+        "id": "N/A",
+        "name": "Đất Nung",
         "image": "https://qd-product-images.s3.ap-southeast-2.amazonaws.com/product-image.png",
         "category": "Ngói",
-        "description": "Sample description for product 2",
-        "subcategory": "Ngói Xi Măng",
-        "tag": "2"
+        "description": "Sample description for product #1",
+        "subcategory": "Ngói 22",
+        "tag": "N/A",
+        "brand": [
+            "Đồng Nai",
+            "Mỹ Xuân",
+            "Hạ Long",
+            "Gốm Mỹ",
+            "Đất Việt"
+        ],
+        "dimension": "N/A"
     },
     {
-        "id": "Ngói",
-        "name": "AK47 Legion",
-        "image": "../assest/product-images/legion.jpg",
+        "id": "N/A",
+        "name": "Đất Nung Trắng Men",
+        "image": "https://qd-product-images.s3.ap-southeast-2.amazonaws.com/product-image.png",
         "category": "Ngói",
-        "description": "Sample description for product 2",
-        "subcategory": "Ngói Gạch",
-        "tag": "2"
+        "description": "Sample description for product #1",
+        "subcategory": "Ngói 22",
+        "tag": "N/A",
+        "brand": [
+            "Đồng Nai",
+            "Mỹ Xuân",
+            "Hạ Long",
+            "Đất Việt"
+        ],
+        "dimension": "N/A"
     },
     {
-        "id": "Ngói",
-        "name": "AK-47 Elete Build",
-        "image": "../assest/product-images/elite.jpg",
+        "id": "N/A",
+        "name": "Đất Nung Trắng Men",
+        "image": "https://qd-product-images.s3.ap-southeast-2.amazonaws.com/product-image.png",
         "category": "Ngói",
-        "description": "Sample description for product 2",
-        "subcategory": "Ngói bitum",
-        "tag": "2"
+        "description": "Sample description for product #1",
+        "subcategory": "Ngói 22",
+        "tag": "N/A",
+        "brand": [
+            "Đồng Nai",
+            "Mỹ Xuân",
+            "Hạ Long",
+            "Đất Việt"
+        ],
+        "dimension": "N/A"
     },
     {
-        "id": "Ngói",
-        "name": "Karambit",
-        "image": "../assest/product-images/Karambit.jpg",
-        "category": "",
-        "description": "Sample description for product 2",
-        "subcategory": "Ngói kim loại",
-        "tag": "2"
-    },
-    {
-        "id": "Ngoi",
-        "name": "M4a4 Zirka",
-        "image": "../assest/product-images/Zirka.jpg",
+        "id": "N/A",
+        "name": "Đất Nung",
+        "image": "https://qd-product-images.s3.ap-southeast-2.amazonaws.com/product-image.png",
         "category": "Ngói",
-        "description": "Sample description for product 1",
-        "sub-subcategory": "Ngói tôn sóng",
-        "tag": "1"
+        "description": "Sample description for product #1",
+        "subcategory": "Ngói 16",
+        "tag": "N/A",
+        "brand": [
+            "Hạ Long",
+            "Đất Việt",
+            "Gốm Mỹ"
+        ],
+        "dimension": "N/A"
     },
     {
-        "id": "Gach lat",
-        "name": "M4a4 Evil",
-        "image": "../assest/product-images/Evil.jpg",
+        "id": "N/A",
+        "name": "Đất Nung Tráng Men",
+        "image": "https://qd-product-images.s3.ap-southeast-2.amazonaws.com/product-image.png",
         "category": "Ngói",
-        "description": "Sample description for product 2",
-        "subcategory": "Ngói Xi Măng",
-        "tag": "2"
+        "description": "Sample description for product #1",
+        "subcategory": "Ngói 16",
+        "tag": "N/A",
+        "brand": [
+            "Hạ Long",
+            "Đất Việt",
+            "Gốm Mỹ"
+        ],
+        "dimension": "N/A"
     },
     {
-        "id": "Gach lat",
-        "name": "M4a4 Evil 2",
-        "image": "../assest/product-images/Evil2.jpg",
+        "id": "N/A",
+        "name": "Đất Nung Tráng Men",
+        "image": "https://qd-product-images.s3.ap-southeast-2.amazonaws.com/product-image.png",
         "category": "Ngói",
-        "description": "Sample description for product 2",
-        "subcategory": "Gạch lát bê tông",
-        "tag": "2"
+        "description": "Sample description for product #1",
+        "subcategory": "Ngói 16",
+        "tag": "N/A",
+        "brand": [
+            "Hạ Long",
+            "Đất Việt",
+            "Gốm Mỹ"
+        ],
+        "dimension": "N/A"
     },
     {
-        "id": "Gach lat",
-        "name": "M4a4 Neo-Nier",
-        "image": "../assest/product-images/neo.jpg",
+        "id": "N/A",
+        "name": "Đất Nung",
+        "image": "https://qd-product-images.s3.ap-southeast-2.amazonaws.com/product-image.png",
         "category": "Ngói",
-        "description": "Sample description for product 2",
-        "subcategory": "Gạch lát bóng kính",
-        "tag": "2"
+        "description": "Sample description for product #1",
+        "subcategory": "Ngói 10",
+        "tag": "N/A",
+        "brand": [
+            "Hạ Long",
+            "Đồng Nai",
+            "Mỹ Xuân"
+        ],
+        "dimension": "N/A"
     },
     {
-        "id": "Gach lat",
-        "name": "Falchion Fade",
-        "image": "../assest/product-images/fachion-fade.jpg",
-        "category": "Gạch Lát",
-        "description": "Sample description for product 2",
-        "subcategory": "Ngói nhựa PVC",
-        "tag": "2"
+        "id": "N/A",
+        "name": "Đất Nung Tráng Men",
+        "image": "https://qd-product-images.s3.ap-southeast-2.amazonaws.com/product-image.png",
+        "category": "Ngói",
+        "description": "Sample description for product #1",
+        "subcategory": "Ngói 10",
+        "tag": "N/A",
+        "brand": [
+            "Hạ Long",
+            "Đồng Nai",
+            "Mỹ Xuân",
+            "Đất Việt"
+        ],
+        "dimension": "N/A"
     },
     {
-        "id": "Gach lat",
-        "name": "Famas",
-        "image": "../assest/product-images/famas.jpg",
-        "category": "Gạch Lát",
-        "description": "Sample description for product 2",
-        "subcategory": "Gạch lát gốm",
-        "tag": "2"
+        "id": "N/A",
+        "name": "Xi Măng Màu",
+        "image": "https://qd-product-images.s3.ap-southeast-2.amazonaws.com/product-image.png",
+        "category": "Ngói",
+        "description": "Sample description for product #1",
+        "subcategory": "Ngói 10",
+        "tag": "N/A",
+        "brand": [
+            "Công Nghệ Ý (9 viên) - SCG, Mỹ Xuân, Lama, Đồng Tâm",
+            "Công Nghệ Nhật (10 viên) - Ruby, DIC, BM, Nippon, Nakamura, Sunrise"
+        ],
+        "dimension": "N/A"
     },
     {
-        "id": "Gach lat",
-        "name": "Briefing",
-        "image": "../assest/product-images/Briefing.jpg",
-        "category": "Gạch Lát",
-        "description": "Sample description for product 2",
-        "subcategory": "Gạch lát đá tự nhiên",
-        "tag": "2"
+        "id": "N/A",
+        "name": "Ceramic Tráng Men",
+        "image": "https://qd-product-images.s3.ap-southeast-2.amazonaws.com/product-image.png",
+        "category": "Ngói",
+        "description": "Sample description for product #1",
+        "subcategory": "Ngói 10",
+        "tag": "N/A",
+        "brand": [
+            "Takao - Vera, Veras, Luxury, Milans, Shihata King",
+            "Viglacera Thăng Long",
+            "Primier-Hera"
+        ],
+        "dimension": "N/A"
     },
     {
-        "id": "Gach lat",
-        "name": "Galil",
-        "image": "../assest/product-images/galil.jpg",
-        "category": "Gạch Lát",
-        "description": "Sample description for product 2",
-        "subcategory": "Ngói Xi Măng",
-        "tag": "2"
+        "id": "N/A",
+        "name": "Đát Nung",
+        "image": "https://qd-product-images.s3.ap-southeast-2.amazonaws.com/product-image.png",
+        "category": "Ngói",
+        "description": "Sample description for product #1",
+        "subcategory": "Ngói 10",
+        "tag": "N/A",
+        "brand": [
+            "Đất Việt"
+        ],
+        "dimension": "N/A"
     },
     {
-        "id": "Gach lat",
-        "name": "Blue Print",
-        "image": "../assest/product-images/blueprint.jpg",
-        "category": "Gạch Trang Trí",
-        "description": "Sample description for product 2",
-        "subcategory": "Gạch lát đá tự nhiên",
-        "tag": "2"
-    },
-    {
-        "id": "Gach lat",
-        "name": "Bone Mask",
-        "image": "../assest/product-images/bone-mask.jpg",
-        "category": "Gạch Trang Trí",
-        "description": "Sample description for product 2",
-        "subcategory": "Gạch lát viên nang",
-        "tag": "2"
-    },
-    {
-        "id": "Gach lat",
-        "name": "Contractor",
-        "image": "../assest/product-images/contractor.jpg",
-        "category": "Gạch Trang Trí",
-        "description": "Sample description for product 2",
-        "subcategory": "Gạch lát mosaic",
-        "tag": "2"
-    },
-    {
-        "id": "Gach lat",
-        "name": "Forest Night",
-        "image": "../assest/product-images/forest-night.jpg",
-        "category": "Gạch Trang Trí",
-        "description": "Sample description for product 2",
-        "subcategory": "Gạch lát 3D",
-        "tag": "2"
+        "id": "N/A",
+        "name": "Đất Nung Tráng Men",
+        "image": "https://qd-product-images.s3.ap-southeast-2.amazonaws.com/product-image.png",
+        "category": "Ngói",
+        "description": "Sample description for product #1",
+        "subcategory": "Ngói 10",
+        "tag": "N/A",
+        "brand": [
+            "Đất Việt"
+        ],
+        "dimension": "N/A"
     }
 ]

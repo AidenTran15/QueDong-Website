@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 <img src="${product.image}" class="card-img-top product-image clickable" alt="${product.name}">
                 <div class="overlay-text clickable">Xem Thêm</div>
                 <div class="card-body">
-                    <p class="product-category">${product.category}</p>
+                    <p class="product-category">${product.subcategory}</p>
                     <h5 class="card-title">${product.name}</h5>
                 </div>
             `;
@@ -112,7 +112,17 @@ document.addEventListener('DOMContentLoaded', function () {
         document.getElementById('modalProductCategory').innerText = product.category;
         document.getElementById('modalProductImage').src = product.image;
         document.getElementById('modalProductDescription').innerText = product.description;
+        document.getElementById('modalProductBrands').innerText = product.brand;
+        // Handle brands as a list
+        const brandList = document.getElementById('modalProductBrands');
+        brandList.innerHTML = ''; // clear previous brands
+        product.brand.forEach(brandName => {
+            const li = document.createElement('li');
+            li.innerText = brandName;
+            brandList.appendChild(li);
+        });
         modal.show();
+
     }
 
     fetch('/Product-Page/products.json')

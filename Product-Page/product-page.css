@@ -260,3 +260,7 @@ div.modal-content .modal-product-image {
     margin: auto;
     /* To center the image */
 }
+
+.card-title {
+    font-size: 1.2rem;
+}
