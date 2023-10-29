@@ -1,0 +1,217 @@
+body,
+html {
+    height: 100%;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    padding: 0;
+
+}
+
+.navbar .nav-link {
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+    margin-right: 6px;
+    margin-left: 6px;
+    /* margin-top: 65px; */
+    font-weight: bold;
+    color: #000;
+
+}
+
+
+
+.nav-link.active {
+    color: #007BFF;
+    border-bottom: 2px solid #007BFF;
+}
+
+
+.navbar-brand-text {
+    font-size: 2.68rem;
+    font-weight: bold;
+    margin-left: 0.625rem;
+    font-family: 'Newsreader', serif;
+    vertical-align: middle;
+
+}
+
+.navbar-brand img {
+    margin-left: 100px;
+}
+
+
+@media (max-width: 768px) {
+
+    /* 768px is a common breakpoint for tablets and below */
+    .navbar .nav-link {
+        margin-top: 3px;
+        /* Adjust the spacing above each link */
+        margin-bottom: 3px;
+        /* Adjust the spacing below each link */
+    }
+
+    .navbar-brand-text {
+        font-size: 1.8rem;
+        font-weight: bold;
+        margin-left: 0.625rem;
+        font-family: 'Newsreader', serif;
+        vertical-align: middle;
+    }
+
+    .navbar-brand img {
+        width: 60px;
+        /* Adjust this value as needed */
+        height: 60px;
+        /* Adjust this value as needed */
+    }
+
+    /* Adjusting the footer container padding */
+    .footer .container {
+        padding: 1rem;
+    }
+
+    /* Adjusting the title sizes in the footer */
+    .footer h3 {
+        font-size: 1.2rem;
+    }
+
+    /* Adjusting the address and other text sizes */
+    .footer address,
+    .footer ul li {
+        font-size: 0.8rem;
+    }
+
+}
+
+.icon-wrapper {
+    background-color: #3B5998;
+    width: 2.6rem;
+    /* Adjusted from px to rem */
+    height: 2.4rem;
+    /* Adjusted from px to rem */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.25rem;
+    /* Adjusted from px to rem */
+}
+
+.fa-solid.fa-magnifying-glass {
+    color: white;
+
+}
+
+.footer.bg-dark {
+    background-color: #3B5998 !important;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.25rem 3rem;
+    /* Adjusted from px to rem */
+    background-color: #3B5998;
+    color: #ffffff;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+
+.fa {
+    padding: 0.625rem;
+    font-size: 1.8rem;
+    width: 2.1rem;
+    height: 2.1rem;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s ease;
+}
+
+.fa:hover {
+    transform: scale(1.1);
+    background: white !important;
+}
+
+.fa-facebook,
+.fa-instagram,
+.fa-zalo {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-zalo {
+    width: 2.2rem;
+    /* Adjust as per your desired size */
+    height: 2.2rem;
+    /* Adjust as per your desired size */
+    font-size: 2.8rem;
+}
+
+.fa-zalo img {
+    width: 100%;
+    /* Adjust to desired size */
+    height: 100%;
+    /* Adjust to desired size */
+    object-fit: contain;
+    /* Ensures that the image fits inside its container */
+    margin: auto;
+    /* To center the image */
+}
+
+
+.company-section {
+    background-color: #ffffff;
+    padding: 40px 0;
+}
+
+.company-image {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.company-title {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.company-description {
+    font-size: 16px;
+}
+
+.company-title1 {
+    font-family: 'Montserrat';
+    font-weight: 200;
+    font-size: 40px;
+}
+
+.company-title2 {
+    font-family: 'Montserrat';
+    font-weight: 800;
+    font-size: 60px;
+}
+
+.company-description {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.section2-title {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    border-bottom: 3px solid #288FD7;
+    display: inline-block;
+}
