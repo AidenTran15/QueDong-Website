@@ -88,7 +88,7 @@ document.addEventListener('DOMContentLoaded', function () {
             filteredProducts = allProducts.slice();
         } else {
             // Otherwise, filter based on the selected categories.
-            filteredProducts = allProducts.filter(product => categories.includes(product.category));
+            filteredProducts = allProducts.filter(product => categories.includes(product.subcategory));
         }
         // Reset to the first page.
         currentPage = 1;

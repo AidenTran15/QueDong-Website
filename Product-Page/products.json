@@ -2,145 +2,145 @@
     {
         "id": "Ngói",
         "name": "AK-47 Asiimovvv",
-        "image": "../assest/product-images/Asiimov.jpg",
-        "brand": "My Xuan",
+        "image": "https://qd-product-images.s3.ap-southeast-2.amazonaws.com/product-image.png",
+        "category": "Ngói",
         "description": "Sample description for product 2",
-        "category": "Ngói Xi Măng",
+        "subcategory": "Ngói Xi Măng",
         "tag": "2"
     },
     {
         "id": "Ngói",
         "name": "AK47 Legion",
         "image": "../assest/product-images/legion.jpg",
-        "brand": "",
+        "category": "Ngói",
         "description": "Sample description for product 2",
-        "category": "Ngói Gạch",
+        "subcategory": "Ngói Gạch",
         "tag": "2"
     },
     {
         "id": "Ngói",
         "name": "AK-47 Elete Build",
         "image": "../assest/product-images/elite.jpg",
-        "brand": "My Xuan",
+        "category": "Ngói",
         "description": "Sample description for product 2",
-        "category": "Ngói bitum",
+        "subcategory": "Ngói bitum",
         "tag": "2"
     },
     {
         "id": "Ngói",
         "name": "Karambit",
         "image": "../assest/product-images/Karambit.jpg",
-        "brand": "",
+        "category": "",
         "description": "Sample description for product 2",
-        "category": "Ngói kim loại",
+        "subcategory": "Ngói kim loại",
         "tag": "2"
     },
     {
         "id": "Ngoi",
         "name": "M4a4 Zirka",
         "image": "../assest/product-images/Zirka.jpg",
-        "brand": "My Xuan",
+        "category": "Ngói",
         "description": "Sample description for product 1",
-        "category": "Ngói tôn sóng",
+        "sub-subcategory": "Ngói tôn sóng",
         "tag": "1"
     },
     {
         "id": "Gach lat",
         "name": "M4a4 Evil",
         "image": "../assest/product-images/Evil.jpg",
-        "brand": "My Xuan",
+        "category": "Ngói",
         "description": "Sample description for product 2",
-        "category": "Ngói Xi Măng",
+        "subcategory": "Ngói Xi Măng",
         "tag": "2"
     },
     {
         "id": "Gach lat",
         "name": "M4a4 Evil 2",
         "image": "../assest/product-images/Evil2.jpg",
-        "brand": "My Xuan",
+        "category": "Ngói",
         "description": "Sample description for product 2",
-        "category": "Gạch lát bê tông",
+        "subcategory": "Gạch lát bê tông",
         "tag": "2"
     },
     {
         "id": "Gach lat",
         "name": "M4a4 Neo-Nier",
         "image": "../assest/product-images/neo.jpg",
-        "brand": "My Xuan",
+        "category": "Ngói",
         "description": "Sample description for product 2",
-        "category": "Gạch lát bóng kính",
+        "subcategory": "Gạch lát bóng kính",
         "tag": "2"
     },
     {
         "id": "Gach lat",
         "name": "Falchion Fade",
         "image": "../assest/product-images/fachion-fade.jpg",
-        "brand": "My Xuan",
+        "category": "Gạch Lát",
         "description": "Sample description for product 2",
-        "category": "Ngói nhựa PVC",
+        "subcategory": "Ngói nhựa PVC",
         "tag": "2"
     },
     {
         "id": "Gach lat",
         "name": "Famas",
         "image": "../assest/product-images/famas.jpg",
-        "brand": "My Xuan",
+        "category": "Gạch Lát",
         "description": "Sample description for product 2",
-        "category": "Gạch lát gốm",
+        "subcategory": "Gạch lát gốm",
         "tag": "2"
     },
     {
         "id": "Gach lat",
         "name": "Briefing",
         "image": "../assest/product-images/Briefing.jpg",
-        "brand": "My Xuan",
+        "category": "Gạch Lát",
         "description": "Sample description for product 2",
-        "category": "Gạch lát đá tự nhiên",
+        "subcategory": "Gạch lát đá tự nhiên",
         "tag": "2"
     },
     {
         "id": "Gach lat",
         "name": "Galil",
         "image": "../assest/product-images/galil.jpg",
-        "brand": "My Xuan",
+        "category": "Gạch Lát",
         "description": "Sample description for product 2",
-        "category": "Ngói Xi Măng",
+        "subcategory": "Ngói Xi Măng",
         "tag": "2"
     },
     {
         "id": "Gach lat",
         "name": "Blue Print",
         "image": "../assest/product-images/blueprint.jpg",
-        "brand": "My Xuan",
+        "category": "Gạch Trang Trí",
         "description": "Sample description for product 2",
-        "category": "Gạch lát đá tự nhiên",
+        "subcategory": "Gạch lát đá tự nhiên",
         "tag": "2"
     },
     {
         "id": "Gach lat",
         "name": "Bone Mask",
         "image": "../assest/product-images/bone-mask.jpg",
-        "brand": "My Xuan",
+        "category": "Gạch Trang Trí",
         "description": "Sample description for product 2",
-        "category": "Gạch lát viên nang",
+        "subcategory": "Gạch lát viên nang",
         "tag": "2"
     },
     {
         "id": "Gach lat",
         "name": "Contractor",
         "image": "../assest/product-images/contractor.jpg",
-        "brand": "My Xuan",
+        "category": "Gạch Trang Trí",
         "description": "Sample description for product 2",
-        "category": "Gạch lát mosaic",
+        "subcategory": "Gạch lát mosaic",
         "tag": "2"
     },
     {
         "id": "Gach lat",
         "name": "Forest Night",
         "image": "../assest/product-images/forest-night.jpg",
-        "brand": "My Xuan",
+        "category": "Gạch Trang Trí",
         "description": "Sample description for product 2",
-        "category": "Gạch lát 3D",
+        "subcategory": "Gạch lát 3D",
         "tag": "2"
     }
 ]
